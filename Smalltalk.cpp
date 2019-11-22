@@ -24,26 +24,26 @@ Smalltalk::~Smalltalk(void) {
 
 }
 
-std::string saySomething() {
+std::string Smalltalk::saySomething() {
 	//TODO
 	return "Hello";
 }
 
-std::string getTime() {
+std::string Smalltalk::getTime() {
 	//TODO
 	return "Hello";
 }
 
-std::unique_ptr<Watch>  takeWatch() {
+std::unique_ptr<Watch> Smalltalk::takeWatch() {
 	//TODO
 	return 0;
 }
 
-bool giveWatch(std::unique_ptr<Watch> &pWatch) {
+bool Smalltalk::giveWatch(std::unique_ptr<Watch> &pWatch) {
 	//TODO
 	return 0;
 }
 
-//void populatePhrases() {
-//	vector<string> phrases;
-//}
+void Smalltalk::populatePhrases() {
+	vector<string> phrases;
+}

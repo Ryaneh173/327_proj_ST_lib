@@ -19,7 +19,7 @@ Smalltalk_Brit::~Smalltalk_Brit(void) {
 
 }
 
-void populatePhrases() {
+void Smalltalk_Brit::populatePhrases() {
 	vector<std::string> phrases;
 	phrases.push_back(BRIT_1);
 	phrases.push_back(BRIT_2);

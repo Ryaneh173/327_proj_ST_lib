@@ -22,7 +22,7 @@ Smalltalk_American::~Smalltalk_American(void) {
 
 }
 
-void populatePhrases() {
+void Smalltalk_American::populatePhrases() {
 	vector<std::string> phrases;
 	phrases.push_back(AMERICAN_PHRASE_1);
 	phrases.push_back(AMERICAN_PHRASE_2);

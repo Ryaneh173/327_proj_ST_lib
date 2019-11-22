@@ -22,9 +22,9 @@ std::vector<std::unique_ptr<Smalltalk>> getPeople(int numBrit, int numAmerican,
 		int numbAmericanDonutEnthusiest, int numWatches) {
 
 	//create a vector to hold SmallTalk unique pointers
-
+	std::vector<std::unique_ptr<Smalltalk>> vct;
 	//add brits to vector
-
+	//for (int i = numBrit)
 	//add americans  to vector
 
 	//add american donut enthusiest  to vector
@@ -35,4 +35,5 @@ std::vector<std::unique_ptr<Smalltalk>> getPeople(int numBrit, int numAmerican,
 	//from this function(see Smalltalk header for hints)
 
 	//return your vector
+	return vct;
 }
