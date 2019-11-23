@@ -11,7 +11,8 @@
 #include "./includes/Smalltalk_Brit.h"
 using namespace std;
 
-Smalltalk_Brit::Smalltalk_Brit(int iPerson):Smalltalk(BRIT, iPerson) {
+Smalltalk_Brit::Smalltalk_Brit(int iPerson) :
+		Smalltalk(BRIT, iPerson) {
 
 }
 
@@ -20,13 +21,13 @@ Smalltalk_Brit::~Smalltalk_Brit(void) {
 }
 
 void Smalltalk_Brit::populatePhrases() {
-	vector<std::string> phrases;
-	phrases.push_back(BRIT_1);
-	phrases.push_back(BRIT_2);
-	phrases.push_back(BRIT_3);
-	phrases.push_back(BRIT_4);
-	phrases.push_back(BRIT_5);
-	phrases.push_back(BRIT_6);
-	phrases.push_back(BRIT_7);
+	mySmallTalk.clear();
+	mySmallTalk.push_back(BRIT_1);
+	mySmallTalk.push_back(BRIT_2);
+	mySmallTalk.push_back(BRIT_3);
+	mySmallTalk.push_back(BRIT_4);
+	mySmallTalk.push_back(BRIT_5);
+	mySmallTalk.push_back(BRIT_6);
+	mySmallTalk.push_back(BRIT_7);
 
 }

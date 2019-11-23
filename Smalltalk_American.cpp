@@ -13,8 +13,11 @@ using namespace std;
 
 Smalltalk_American::Smalltalk_American(int iPerson)
 :Smalltalk(AMERICAN, iPerson) {
-	//TODO make sure to put in
-	//curentphrase, pwatch, mysmalltlak from pop.phrases
+
+}
+
+Smalltalk_American::Smalltalk_American(std::string myNationality, int iPerson)
+:Smalltalk(myNationality, iPerson) {
 
 }
 
@@ -23,11 +26,11 @@ Smalltalk_American::~Smalltalk_American(void) {
 }
 
 void Smalltalk_American::populatePhrases() {
-	vector<std::string> phrases;
-	phrases.push_back(AMERICAN_PHRASE_1);
-	phrases.push_back(AMERICAN_PHRASE_2);
-	phrases.push_back(AMERICAN_PHRASE_3);
-	phrases.push_back(AMERICAN_PHRASE_4);
-	phrases.push_back(AMERICAN_PHRASE_5);
+	mySmallTalk.clear();
+	mySmallTalk.push_back(AMERICAN_PHRASE_1);
+	mySmallTalk.push_back(AMERICAN_PHRASE_2);
+	mySmallTalk.push_back(AMERICAN_PHRASE_3);
+	mySmallTalk.push_back(AMERICAN_PHRASE_4);
+	mySmallTalk.push_back(AMERICAN_PHRASE_5);
 }
 
